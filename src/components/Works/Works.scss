@@ -1,0 +1,104 @@
+@media (min-width: 800px) {
+.works {
+    min-height: 100vh;
+    max-width: 100%;
+    margin-left: 50px;
+    margin-top: 50px;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+    gap: 4rem;
+    padding-bottom: 50px;
+
+.cards {
+  position: relative;
+
+    img {
+        width: 342px;
+        height: 220px;
+        object-fit: scale-down;
+    }
+
+    .project-explanation {
+      width: 50%;
+      padding-left: 30px;
+      padding-bottom: 20px;
+    }
+
+    .button-container {
+      position: absolute;
+      left: -5%;
+      top: 100%;
+      display: flex;
+      flex-direction: row;
+      margin: 6px;
+    }
+
+    button {
+        padding: 7.5px 20px;
+        background: linear-gradient(25deg,rgba(1, 60, 210, 0.753),rgb(255, 72, 6));
+        color: #fff;
+        border: 1px solid #fff;
+        cursor: pointer;
+        border-radius: 5px;
+        text-transform: uppercase;
+        font-weight: bolder;
+
+        &:hover {
+            background: #fff;
+            color: firebrick;
+        }
+    }
+}
+}
+}
+
+@media(max-width:800px){
+.works {
+  min-height: 100vh;
+  margin-left: 0;
+  width: 90%;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+    .cards {
+      position: relative;
+
+        img {
+            width: 90%;
+            object-fit: scale-down;
+            padding-top: 60px;
+            padding-left: 30px;
+        }
+
+        .project-explanation {
+          width: 90%;
+          padding-left: 30px;
+          padding-bottom: 20px;
+        }
+
+        .button-container {
+          position: absolute;
+          top: 90%;
+          left: -5%;
+          display: flex;
+          flex-direction: row;
+          margin-top: 30px;
+          margin-left: 35px;
+        }
+
+        button {
+            padding: 7.5px 20px;
+            background: linear-gradient(25deg,rgba(1, 60, 210, 0.753),rgb(255, 72, 6));
+            color: #fff;
+            border: 1px solid #fff;
+            cursor: pointer;
+            border-radius: 5px;
+            text-transform: uppercase;
+            font-weight: bolder;
+    }
+
+    /* fix the CSS on mobile -- what is over 100% width */
+
+}}
