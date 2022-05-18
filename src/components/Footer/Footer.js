@@ -26,8 +26,8 @@ const Footer = () => {
           <Close className="close" onClick={showMenu} />
         </div>
         <li><Link to="/">Home</Link></li>
-          <li><a onClick={handleAboutClick}>About</a></li>
-          <li><a onClick={handleClick}>Portfolio</a></li>
+          <li><div onClick={handleAboutClick}>About</div></li>
+          <li><div onClick={handleClick}>Portfolio</div></li>
           <li><a href="https://github.com/OldEphraim" target="_blank" rel="noreferrer">GitHub</a></li>
           <li><a href="https://oldephraimlearnstocode.wordpress.com" target="_blank" rel="noreferrer">Blog</a></li>
           <li><a href="https://oldephraimlearnstocode.wordpress.com/contact/" target="_blank" rel="noreferrer">Contact</a></li>
