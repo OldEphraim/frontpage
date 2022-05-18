@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import './Header.scss';
 import {Close, MenuOutlined} from '@mui/icons-material';
-import {Link} from 'react-router-dom';
 
 const Header = () => {
   const [active, setActive] = useState(false);
@@ -22,8 +21,8 @@ const Header = () => {
         <div className="closed">
           <Close className="close" onClick={showMenu} />
         </div>
-        <li><Link to="/">Home</Link></li>
-          <li><Link to="/">About</Link></li>
+        <li><a href="/">Home</a></li>
+          <li><a href="/">About</a></li>
           <li><div onClick={handleClick}>Portfolio</div></li>
           <li><a href="https://github.com/OldEphraim" target="_blank" rel="noreferrer">GitHub</a></li>
           <li><a href="https://oldephraimlearnstocode.wordpress.com" target="_blank" rel="noreferrer">Blog</a></li>

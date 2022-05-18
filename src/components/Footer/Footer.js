@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import './Footer.scss';
 import {Close, MenuOutlined} from '@mui/icons-material';
-import {Link} from 'react-router-dom';
 
 const Footer = () => {
   const [active, setActive] = useState(false);
@@ -25,7 +24,7 @@ const Footer = () => {
         <div className="closed">
           <Close className="close" onClick={showMenu} />
         </div>
-        <li><Link to="/">Home</Link></li>
+        <li><a href="/">Home</a></li>
           <li><div onClick={handleAboutClick}>About</div></li>
           <li><div onClick={handleClick}>Portfolio</div></li>
           <li><a href="https://github.com/OldEphraim" target="_blank" rel="noreferrer">GitHub</a></li>
