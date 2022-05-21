@@ -16,7 +16,7 @@ const ContactForm = () => {
 
   return (
     <>
-    <div className="ContactForm">
+    <div className="ContactForm" id="ContactForm">
     <h1 className="ContactFormHeader">Send me a message!</h1>
     <p className="ContactFormSubheader">It'll go straight to my email, and I'll get back to you within the day.</p>
     <form

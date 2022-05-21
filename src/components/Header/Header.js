@@ -7,12 +7,19 @@ const Header = () => {
   const showMenu = () => {
     setActive(!active);
   }
-  function handleClick () {
+  function handlePortfolioClick () {
     document.getElementById("Works").scrollIntoView({behavior: "smooth"});
     setActive(false);
   }
+  function handleContactClick () {
+    document.getElementById("ContactForm").scrollIntoView({behavior: "smooth"});
+    setActive(false);
+  }
+  function handleHomeClick () {
+    setActive(false);
+  }
   return (
-    <div className="Header">
+    <div className="Header" id="Header">
     <div className="header-logo">
       <h1>Alan</h1>
     </div>
@@ -21,12 +28,12 @@ const Header = () => {
         <div className="closed">
           <Close className="close" onClick={showMenu} />
         </div>
-        <li><a href="/">Home</a></li>
-          <li><a href="/">About</a></li>
-          <li><div onClick={handleClick}>Portfolio</div></li>
-          <li><a href="https://github.com/OldEphraim" target="_blank" rel="noreferrer">GitHub</a></li>
-          <li><a href="https://oldephraimlearnstocode.wordpress.com" target="_blank" rel="noreferrer">Blog</a></li>
-          <li><a href="https://oldephraimlearnstocode.wordpress.com/contact/" target="_blank" rel="noreferrer">Contact</a></li>
+        <li><div onClick={handleHomeClick}>Home</div></li>
+          <li><div onClick={handleHomeClick}>About</div></li>
+          <li><div onClick={handlePortfolioClick}>Portfolio</div></li>
+          <li><div><a href="https://github.com/OldEphraim" target="_blank" rel="noreferrer">GitHub</a></div></li>
+          <li><div><a href="https://oldephraimlearnstocode.wordpress.com" target="_blank" rel="noreferrer">Blog</a></div></li>
+          <li><div onClick={handleContactClick}>Contact</div></li>
       </ul>
     </nav>
     <div className="changer">
