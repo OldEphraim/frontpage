@@ -13,6 +13,7 @@ const Footer = () => {
   }
   function handleAboutClick () {
     document.getElementById("Main").scrollIntoView({behavior: "smooth"});
+    setActive(false);
   }
   return (
     <div className="Footer">

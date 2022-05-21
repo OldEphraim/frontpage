@@ -11,8 +11,9 @@
 }
 
 .navbar {
+  @media (min-width: 768px) {
   margin: 0 auto;
-}
+
 
 ul {
   display: flex;
@@ -33,6 +34,8 @@ ul {
     }
   }
 }
+}
+}
 
 .changer {
   display: flex;
@@ -52,6 +55,7 @@ ul {
 @media (max-width: 768px) {
   .Header {
     justify-content: space-between;
+    width: 100%;
   }
 
   .navbar {
@@ -66,14 +70,12 @@ ul {
     position: fixed;
     inset: 0;
     background-color: white;
-    z-index: 1;
-  }
+    height: 100%;
 
-  ul {
-    margin: 0 auto;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 1rem;
+    ul {
+      display: inherit;
+      list-style-type: none;
+      padding-inline-start: 0;
 
     li {
       margin: 2rem;
@@ -86,6 +88,7 @@ ul {
       }
     }
   }
+}
   .changer {
     .menu {
       display: block;

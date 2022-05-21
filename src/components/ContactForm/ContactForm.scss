@@ -1,0 +1,66 @@
+.ContactForm {
+  background: linear-gradient(45deg,rgba(216, 46, 8, 0.085),rgba(62, 7, 189, 0.126));
+  padding-top: 25px;
+
+  h1, p {
+    margin-left: 50px;
+  }
+
+.ThankYou {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.InTouch {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.InputArea {
+  padding-top: 0;
+  margin-bottom: 0.75rem;
+}
+
+.InputField {
+  position: relative;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  margin-left: 50px;
+  margin-right: 0.75rem;
+  background-color: #ffffff;
+  color: #4B5563;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: #9CA3AF;
+  width: 37.5%;
+  border-radius: 0.25rem;
+  border-width: 0;
+  outline: 0;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+
+  @media (max-width: 768px) {
+    width: 75%;
+  }
+}
+
+.Button {
+  margin-top: 0.75rem;
+  margin-bottom: 1rem;
+  margin-left: 50px;
+  margin-right: 1.75rem;
+  padding: 7.5px 20px;
+  background: linear-gradient(25deg,rgba(1, 60, 210, 0.753),rgb(255, 72, 6));
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  border-radius: 0.25rem;
+  cursor: pointer;
+
+  &:hover {
+    background: #fff;
+    color: firebrick;
+  }
+}
+}

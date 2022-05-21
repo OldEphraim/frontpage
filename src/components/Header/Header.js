@@ -17,7 +17,7 @@ const Header = () => {
       <h1>Alan</h1>
     </div>
     <nav className={active ? 'navbar-active' : 'navbar'}>
-      <ul>
+    <ul>
         <div className="closed">
           <Close className="close" onClick={showMenu} />
         </div>
