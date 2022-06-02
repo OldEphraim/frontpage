@@ -26,13 +26,15 @@
     .project-explanation {
       display: block;
       margin: auto;
-      width: 50%;
+      width: 342px;
     }
 
     .button-container {
-      display: block;
+      display: flex;
       margin: auto;
       width: 75%;
+      justify-content: center;
+      padding-top: 5px;
     }
 
     button {
