@@ -12,7 +12,7 @@ const Footer = () => {
     setActive(false);
   }
   function handleAboutClick () {
-    document.getElementById("Main").scrollIntoView({behavior: "smooth"});
+    document.getElementById("about-me").scrollIntoView({behavior: "smooth"});
     setActive(false);
   }
   function handleHomeClick() {

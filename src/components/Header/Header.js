@@ -18,6 +18,10 @@ const Header = () => {
   function handleHomeClick () {
     setActive(false);
   }
+  function handleAboutClick() {
+    document.getElementById("about-me").scrollIntoView({behavior: "smooth"});
+    setActive(false);
+  }
   return (
     <div className="Header" id="Header">
     <div className="header-logo">
@@ -29,7 +33,7 @@ const Header = () => {
           <Close className="close" onClick={showMenu} />
         </div>
         <li><div onClick={handleHomeClick}>Home</div></li>
-          <li><div onClick={handleHomeClick}>About</div></li>
+          <li><div onClick={handleAboutClick}>About</div></li>
           <li><div onClick={handlePortfolioClick}>Portfolio</div></li>
           <li><div><a href="https://github.com/OldEphraim" target="_blank" rel="noreferrer">GitHub</a></div></li>
           <li><div><a href="https://oldephraimlearnstocode.wordpress.com" target="_blank" rel="noreferrer">Blog</a></div></li>

@@ -3,7 +3,7 @@
     min-height: 100vh;
     max-width: 100%;
     margin-left: 50px;
-    margin-top: 50px;
+    padding-top: 50px;
     position: relative;
     display: grid;
     grid-template-columns: 45% 45%;
@@ -65,8 +65,8 @@
 }
 
     .cards {
-      margin-top: 35px;
       position: relative;
+      padding-top: 35px;
 
         img {
             display: block;

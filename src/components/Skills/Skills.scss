@@ -1,0 +1,17 @@
+.Skills {
+  display: block;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 20px;
+
+  .skill-content {
+    display: flex;
+    justify-content: center;
+    direction: row;
+    flex-wrap: wrap;
+
+    .content {
+      text-align: center;
+    }
+  }
+}
