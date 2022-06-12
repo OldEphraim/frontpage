@@ -16,7 +16,7 @@ const Main = () => {
       <div className="main-container">
       <div className="content">
         <div className="text">
-            <p>Hey there</p>
+            <p>Hey there!</p>
             <h1>I am Alan Garber</h1>
             <div className="p"><TypeWriterEffect
    textStyle={{

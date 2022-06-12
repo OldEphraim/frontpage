@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
-import './Header.scss';
 import {Close, MenuOutlined} from '@mui/icons-material';
+import './Header.scss';
 
 const Header = () => {
   const [active, setActive] = useState(false);
@@ -32,7 +32,7 @@ const Header = () => {
         <div className="closed">
           <Close className="close" onClick={showMenu} />
         </div>
-        <li><div onClick={handleHomeClick}>Home</div></li>
+          <li><div onClick={handleHomeClick}>Home</div></li>
           <li><div onClick={handleAboutClick}>About</div></li>
           <li><div onClick={handlePortfolioClick}>Portfolio</div></li>
           <li><div><a href="https://github.com/OldEphraim" target="_blank" rel="noreferrer">GitHub</a></div></li>

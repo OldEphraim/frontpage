@@ -61,6 +61,10 @@
     @media (min-width: 768px) {
     padding-right: 50px;
   }
+
+  @media (max-width: 768px) {
+    padding-top: 100px;
+  }
 }
 
   .buttons {
@@ -69,6 +73,7 @@
 
     @media (max-width: 768px) {
       justify-content: center;
+      padding-bottom: 40px;
     }
 
     button {
@@ -94,6 +99,7 @@
     .text {
       white-space: nowrap;
       line-height: 30px;
+      padding-top: 80px;
 
       p {
         font-size: 11px;
