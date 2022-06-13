@@ -37,6 +37,7 @@ const Footer = () => {
           <li><div onClick={handlePortfolioClick}>Portfolio</div></li>
           <li><div><a href="https://github.com/OldEphraim" target="_blank" rel="noreferrer">GitHub</a></div></li>
           <li><div><a href="https://oldephraimlearnstocode.wordpress.com" target="_blank" rel="noreferrer">Blog</a></div></li>
+          <li><div><a href="https://oldephraim.github.io/Resume" target="_blank" rel="noreferrer">Resume</a></div></li>
           <li><div onClick={handleContactClick}>Contact</div></li>
       </ul>
     </nav>
