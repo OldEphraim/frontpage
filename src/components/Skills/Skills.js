@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHtml5, faCss3, faJs, faReact, faAngular, faSass, faNodeJs, faPython } from '@fortawesome/free-brands-svg-icons';
+import { faHtml5, faCss3, faJs, faReact, faAngular, faSass, faNodeJs, faPython, faBootstrap } from '@fortawesome/free-brands-svg-icons';
 import { faCodeCommit } from '@fortawesome/free-solid-svg-icons';
 import './Skills.scss';
 
@@ -17,6 +17,7 @@ const Skills = () => {
       <figure className="content"><FontAwesomeIcon icon={faNodeJs} size="3x" /><figcaption>Node.js</figcaption></figure>
       <figure className="content"><FontAwesomeIcon icon={faCodeCommit} size="3x" /><figcaption>Bash</figcaption></figure>
       <figure className="content"><FontAwesomeIcon icon={faPython} size="3x" /><figcaption>Python</figcaption></figure>
+      <figure className="content"><FontAwesomeIcon icon={faBootstrap} size="3x" /><figcaption>Bootstrap</figcaption></figure>
     </div>
     </div>
   )
