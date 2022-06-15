@@ -11,6 +11,10 @@
   background:linear-gradient(45deg,rgba(216, 46, 8, 0.085),rgba(62, 7, 189, 0.126));
   position: relative;
 
+  @media (max-height: 600px) {
+    padding-top: 40px;
+  }
+
   .about-me {
     display: block;
     margin: auto;
@@ -26,6 +30,10 @@
 
     @media (max-width: 768px) {
       padding-top: 40px;
+    }
+
+    @media (max-height: 600px) {
+      padding-top: 80px;
     }
   }
 }
