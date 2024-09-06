@@ -1,7 +1,6 @@
 import React from 'react';
 import TypeWriterEffect from 'react-typewriter-effect';
 import './Main.scss';
-import placeholderImage from '../assets/placeholderImage.jpg';
 import image from '../assets/image.jpg';
 
 const Main = () => {
@@ -50,9 +49,9 @@ const Main = () => {
       <div className="about-me" id="about-me">
       Welcome to my website! My name is Alan Garber, and I'm searching for a position as a frontend web developer. I'm always open to an opportunity, so feel free to connect or send me a message.<br/><br/>
 
-      Since I was young, I've had a passion for learning new skills. I learned English as a second language as an elementary schooler, and Spanish as a third language as a high schooler. As an undergraduate, I completed minors in 7 different subjects.<br/><br/>
+      My journey into web development began during the COVID lockdowns. While I initially pursued law at Washington University in St. Louis, my growing fascination with programming led me to explore JavaScript and Python, eventually specializing in React and Angular. This transition marked the beginning of a fulfilling career in software engineering, where I’ve been able to combine my problem-solving skills with my love for creating innovative solutions.<br/><br/>
 
-      Unsure of where to go next, I attended law school at Washington University in St. Louis, Missouri from 2019 to 2022. However, during the COVID lockdowns, I found myself sitting in front of a screen more than ever before, and discovered my passion for web development. After learning to program in JavaScript and Python, I learned to build applications using React and Angular. I love software engineering, and I'm excited to begin my journey as a web developer!<br/><br/>
+      In my previous role, I honed my skills in frontend development within an Agile Scrum environment. This experience not only deepened my expertise in modern web technologies but also allowed me to collaborate effectively with cross-functional teams. As I continue to grow in this field, I am excited to embrace new challenges and contribute to impactful projects in the web development landscape.<br/><br/>
       </div>
     </div>
   )

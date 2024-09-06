@@ -1,13 +1,11 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './ContactForm.scss';
 
 const FORM_ENDPOINT = "https://public.herotofu.com/v1/78131d30-d937-11ec-af04-d73722aa9797";
 
 const ContactForm = () => {
-  const [submitted, setSubmitted] = useState(false);
   const handleSubmit = () => {
     setTimeout(() => {
-      setSubmitted(true);
       document.getElementById("InputButton").style.display = "none";
       document.getElementById("BelowInputArea").innerHTML = "<p>Thank you for your message! I'll get back to you soon.</p>"
       document.getElementById("ContactForm").style.padding = "25px 0px 25px 0px";
