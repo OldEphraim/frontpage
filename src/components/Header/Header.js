@@ -8,7 +8,9 @@ const Header = () => {
     setActive(!active);
   };
   function handlePortfolioClick() {
-    document.getElementById("Works").scrollIntoView({ behavior: "smooth" });
+    document
+      .getElementById("TarotProject")
+      .scrollIntoView({ behavior: "smooth" });
     setActive(false);
   }
   function handleContactClick() {
