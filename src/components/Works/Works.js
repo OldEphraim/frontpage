@@ -1,8 +1,6 @@
 import React from "react";
 import "./Works.scss";
 
-import hotAndCold from "../assets/hot-and-cold.png";
-import imageHeader from "../assets/image-header.jpg";
 import magicBanner from "../assets/magic-banner.jpg";
 import quiz from "../assets/quiz.jpg";
 import streetMap from "../assets/streetmap.jpg";
@@ -87,37 +85,6 @@ const Works = () => {
           </div>
         </div>
         <div className="cards">
-          <img src={hotAndCold} alt="" />
-          <div className="project-explanation">
-            <li>Weather app</li>
-            <li>Shows weather anywhere on Earth 3 hours from now</li>
-            <li>Built with Angular and Open Weather API</li>
-          </div>
-          <div className="button-container">
-            <a
-              href="https://alanmgarber.com/Angular-Weather-App"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <button>See Project</button>
-            </a>
-            <a
-              href="https://github.com/OldEphraim/Angular-Weather-App"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <button>See GitHub</button>
-            </a>
-            <a
-              href="https://oldephraimlearnstocode.wordpress.com/2022/06/03/weather-app-code-review/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <button>See Blogpost</button>
-            </a>
-          </div>
-        </div>
-        <div className="cards">
           <img src={wordle} alt="" />
           <div className="project-explanation">
             <li>Swordle; clone of popular Internet phenomenon Wordle</li>
@@ -171,37 +138,6 @@ const Works = () => {
             </a>
             <a
               href="https://oldephraimlearnstocode.wordpress.com/2022/05/27/word-quiz-code-review/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <button>See Blogpost</button>
-            </a>
-          </div>
-        </div>
-        <div className="cards">
-          <img src={imageHeader} alt="" />
-          <div className="project-explanation">
-            <li>Landing page for Sunnyside Agency</li>
-            <li>Built with HTML, CSS, and JavaScript</li>
-            <li>Responsive web design</li>
-          </div>
-          <div className="button-container">
-            <a
-              href="https://alanmgarber.com/Landing-Page/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <button>See Project</button>
-            </a>
-            <a
-              href="https://github.com/OldEphraim/Landing-Page/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <button>See GitHub</button>
-            </a>
-            <a
-              href="https://oldephraimlearnstocode.wordpress.com/2022/05/27/landing-page-code-review/"
               target="_blank"
               rel="noreferrer"
             >
